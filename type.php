@@ -39,7 +39,7 @@
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "location";
         $arrayPostData['messages'][0]['title'] = "บริษัททรูมูฟ จำกัด";
-        $arrayPostData['messages'][0]['address'] = "Unnamed Road, ตำบล หนองป่าครั่ง อำเภอเมืองเชียงใหม่ เชียงใหม่ 50130 ประเทศไทย",18.7924210,99.0384200;
+        $arrayPostData['messages'][0]['address'] = "Unnamed Road", "ตำบล หนองป่าครั่ง อำเภอเมืองเชียงใหม่ เชียงใหม่ 50130 ประเทศไทย","18.7924210,99.0384200";
         $arrayPostData['messages'][0]['latitude'] = "18.7924210";
         $arrayPostData['messages'][0]['longitude'] = "99.0384200";
         replyMsg($arrayHeader,$arrayPostData);
