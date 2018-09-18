@@ -35,11 +35,11 @@
         replyMsg($arrayHeader,$arrayPostData);
     }
     #ตัวอย่าง Message Type "Location"
-    else if($message == "true"){
+    else if($message == "location"){
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "location";
         $arrayPostData['messages'][0]['title'] = "บริษัททรูมูฟ จำกัด";
-        $arrayPostData['messages'][0]['address'] = ;
+        $arrayPostData['messages'][0]['address'] = "Unnamed Road", "ตำบล หนองป่าครั่ง", "<br>", "อำเภอเมืองเชียงใหม่ เชียงใหม่", "<br>", "50130 ประเทศไทย",18.7924210,99.0384200;;
         $arrayPostData['messages'][0]['latitude'] = "18.7924210";
         $arrayPostData['messages'][0]['longitude'] = "99.0384200";
         replyMsg($arrayHeader,$arrayPostData);
