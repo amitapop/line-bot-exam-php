@@ -39,7 +39,7 @@
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "location";
         $arrayPostData['messages'][0]['title'] = "หอพัก 40 ปี";
-        $arrayPostData['messages'][0]['address'] = "Chiang Mai University เมืองเชียงใหม่ เชียงใหม่ 50000 ประเทศไทย,18.7924210,99.0384200";
+        $arrayPostData['messages'][0]['address'] = "Chiang Mai University เมืองเชียงใหม่ เชียงใหม่ 50000 ประเทศไทย";
         $arrayPostData['messages'][0]['latitude'] = "18.7924210";
         $arrayPostData['messages'][0]['longitude'] = "99.0384200";
         replyMsg($arrayHeader,$arrayPostData);
