@@ -39,7 +39,7 @@
         $arrayPostData['replyToken'] = $arrayJson['events'][0]['replyToken'];
         $arrayPostData['messages'][0]['type'] = "location";
         $arrayPostData['messages'][0]['title'] = "บริษัททรูมูฟ จำกัด";
-        $arrayPostData['messages'][0]['address'] =   "18.7924210,99.0384200";
+        $arrayPostData['messages'][0]['address'] = ;
         $arrayPostData['messages'][0]['latitude'] = "18.7924210";
         $arrayPostData['messages'][0]['longitude'] = "99.0384200";
         replyMsg($arrayHeader,$arrayPostData);
